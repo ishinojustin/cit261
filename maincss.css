@@ -1,0 +1,35 @@
+/*Main Body Formatting*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: helvetica, verdana, arial, sans-serif;
+}
+
+
+/* Main Navigation format */
+
+ul {
+    list-style-type: none;
+}
+
+/* Topics Navigation */
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    padding: .5em;
+    margin: .25em;
+}
