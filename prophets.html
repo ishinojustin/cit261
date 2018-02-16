@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+      h1 {
+         border-bottom: 3px solid #274D59;
+         color: #90C3D4;
+         font-size: 30px;
+      }
+
+      table,
+      th,
+      td {
+         border: 1px solid grey;
+         border-collapse: collapse;
+         padding: 5px;
+      }
+
+
+      /*	If the DOM object has a class of highlight make the text blue	*/
+
+      .highlight {
+         background-color: #90C3D4;
+      }
+
+      /*	When the DOM object has a class of slidingText move and transform the text	*/
+
+      .slidingText {
+         -webkit-animation: cssAnimateSlidingText 3s ease 0s 1 forwards
+      }
+
+      /*	When the DOM object has a class of wiggle-me on Hover wiggle the text 	*/
+
+      .wiggle-me:hover {
+         -ms-animation: wiggle .3s 2;
+         -moz-animation: wiggle .3s 2;
+         -webkit-animation: wiggle .3s 2;
+         animation: wiggle .3s 2;
+      }
+
+      @-ms-keyframes wiggle {
+         0% {
+            -ms-transform: rotate(3deg);
+         }
+         50% {
+            -ms-transform: rotate(-3deg);
+         }
+         100% {
+            -ms-transform: rotate(3deg);
+         }
+      }
+
+      @-moz-keyframes wiggle {
+         0% {
+            -moz-transform: rotate(3deg);
+         }
+         50% {
+            -moz-transform: rotate(-3deg);
+         }
+         100% {
+            -moz-transform: rotate(3deg);
+         }
+      }
+
+      @-webkit-keyframes wiggle {
+         0% {
+            -webkit-transform: rotate(3deg);
+         }
+         50% {
+            -webkit-transform: rotate(-3deg);
+         }
+         100% {
+            -webkit-transform: rotate(3deg);
+         }
+      }
+
+      @keyframes wiggle {
+         0% {
+            transform: rotate(3deg);
+         }
+         50% {
+            transform: rotate(-3deg);
+         }
+         100% {
+            transform: rotate(3deg);
+         }
+      }
+
+      @-webkit-keyframes cssAnimateSlidingText {
+         0% {
+            -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+         }
+         25% {
+            -webkit-transform: rotate(45deg) scale(2) skew(-45deg) translate(120px);
+         }
+         75% {
+            -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(240px);
+         }
+         100% {
+            -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+         }
+      }
+   </style>
+</head>
+
+<body>
+
+   <h1>Prophets of The Church of Jesus Christ of Latter-day Saints</h1>
+
+   <br><br>
+   <ul>
+      <li>Press <strong style="color: #274D59;">View</strong>. The class list will display all of the prophets of the Church of Jesus Christ of Latter-day Saints.<br> Local Storage will be created for each students entry. Key is "firsName lastName" and the value is a JSON object of prophet data
+         <li>Click on an <strong style="color: #274D59;">Prophet Name</strong> column item. The Prophet Name field will wiggle when you hover over each name.
+            <li>Click on the <strong style="color: #274D59;">Prophet Name</strong> and that prophet's entry will be <strong style="color: #274D59;">deleted</strong> from the table and from Local Storage
+               <li>Click on <strong style="color: #274D59;">Clear Local Storage</strong> to clear ALL of the entries in the local storage.<br>
+                  <li>Run your mouse over the <strong style="color: #274D59;">Century</strong> column. Other prophets of the same century will be highlighted<br><br>
+   </ul>
+   <input type="button" value="View" onclick="getJSON()" />
+   <input type="button" value="Clear Local Storage" onclick="clearLS()" />
+   <div id="div"><br><br><br></div>
+   <div id="id01"></div>
+
+   <script>
+      function getJSON() {
+         var xmlhttp = new XMLHttpRequest();
+         var url = "https://ishinojustin.github.io/cit261/hatch_feb.json";
+
+         xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+               buildTable(xmlhttp.responseText);
+            }
+         }
+         xmlhttp.open("GET", url, true);
+         xmlhttp.send();
+      }
+
+      function buildTable(response) {
+         document.getElementById("div").innerHTML = "<br><br><br>";
+         var prophets = JSON.parse(response);
+         console.log(prophets);
+         var out = "<table id=prophetList> <th>Fly Name</th>" +
+            "<th>Status</th>";
+
+         for (i = 0; i < prophets.length; i++) {
+            out += "<tr>" +
+               "<td class='flyName'>" + prophets[i].name + "</td>" +
+               "<td class='flyStatus' >" + prophets[i].status + "</td>" +
+               "</tr>";
+         }
+         out += "</table>";
+
+         document.getElementById("id01").innerHTML = out;
+      }
+   </script>
+
+</body>
+</html>
