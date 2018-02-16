@@ -7,56 +7,33 @@
       function loadJSON() {
          var data_file = "https://ishinojustin.github.io/cit261/hatch_feb.json";
          var http_request = new XMLHttpRequest();
-         try {
-            // Opera 8.0+, Firefox, Chrome, Safari
-            http_request = new XMLHttpRequest();
-         } catch (e) {
-            // Internet Explorer Browsers
-            try {
-               http_request = new ActiveXObject("Msxml2.XMLHTTP");
-
-            } catch (e) {
-
-               try {
-                  http_request = new ActiveXObject("Microsoft.XMLHTTP");
-               } catch (e) {
-                  // Something went wrong
-                  alert("Your browser broke!");
-                  return false;
-               }
-
-            }
-         }
+         //         try { // // Opera 8.0+, Firefox, Chrome, Safari // http_request = new XMLHttpRequest(); // } catch (e) { // // Internet Explorer Browsers // try { // http_request = new ActiveXObject("Msxml2.XMLHTTP"); // // } catch (e) { // // try { // http_request = new ActiveXObject("Microsoft.XMLHTTP"); // } catch (e) { // // Something went wrong // alert("Your browser broke!"); // return false; // } // // } // }
 
          http_request.onreadystatechange = function() {
-
-            var name = document.getElementById("Name");
-            var status = document.getElementById("Status");
-
-            if (http_request.readyState == 4) {
-               buildHatchTable(http_request.responseText);
+            if (http_request.readyState == 4 && http_request.status == 200) {
+               buildTable(http_request.responseText);
             }
          }
-
          http_request.open("GET", data_file, true);
          http_request.send();
       }
 
-      function buildHatchTable(response) {
+      function buildTable(response) {
          document.getElementById("div").innerHTML = "<br><br><br>";
          var hatch = JSON.parse(response);
          console.log(hatch);
-         var out = "<table id=prophetList> <th>Prophet Name</th>" +
-            "<th>Years Served</th>" +
-            "<th>Century</th>";
+         var out = "<table id=prophetList> <th>Fly Name</th>" +
+            "<th>Status</th>";
 
          for (i = 0; i < hatch.length; i++) {
             out += "<tr>" +
-               "<td class='name'>" + hatch[i].name + "</td>" +
-               "<td class='status'>" + hatch[i].status + "</td>" +
+               "<td class='flyName'>" + hatch[i].name + "</td>" +
+               "<td class='flyStatus' >" + hatch[i].status + "</td>" +
                "</tr>";
          }
-         out += "</table>";
+         out += "</table>" + "<br>";
+
+         console.log(out);
 
          document.getElementById("id01").innerHTML = out;
       }

@@ -106,18 +106,11 @@
 
 <body>
 
-   <h1>Prophets of The Church of Jesus Christ of Latter-day Saints</h1>
+   <h1>February Hatch for Henry's Fork of the Snake River</h1>
 
    <br><br>
-   <ul>
-      <li>Press <strong style="color: #274D59;">View</strong>. The class list will display all of the prophets of the Church of Jesus Christ of Latter-day Saints.<br> Local Storage will be created for each students entry. Key is "firsName lastName" and the value is a JSON object of prophet data
-         <li>Click on an <strong style="color: #274D59;">Prophet Name</strong> column item. The Prophet Name field will wiggle when you hover over each name.
-            <li>Click on the <strong style="color: #274D59;">Prophet Name</strong> and that prophet's entry will be <strong style="color: #274D59;">deleted</strong> from the table and from Local Storage
-               <li>Click on <strong style="color: #274D59;">Clear Local Storage</strong> to clear ALL of the entries in the local storage.<br>
-                  <li>Run your mouse over the <strong style="color: #274D59;">Century</strong> column. Other prophets of the same century will be highlighted<br><br>
-   </ul>
+
    <input type="button" value="View" onclick="getJSON()" />
-   <input type="button" value="Clear Local Storage" onclick="clearLS()" />
    <div id="div"><br><br><br></div>
    <div id="id01"></div>
 
@@ -137,15 +130,15 @@
 
       function buildTable(response) {
          document.getElementById("div").innerHTML = "<br><br><br>";
-         var prophets = JSON.parse(response);
-         console.log(prophets);
+         var hatch = JSON.parse(response);
+         console.log(hatch);
          var out = "<table id=prophetList> <th>Fly Name</th>" +
             "<th>Status</th>";
 
-         for (i = 0; i < prophets.length; i++) {
+         for (i = 0; i < hatch.length; i++) {
             out += "<tr>" +
-               "<td class='flyName'>" + prophets[i].name + "</td>" +
-               "<td class='flyStatus' >" + prophets[i].status + "</td>" +
+               "<td class='flyName'>" + hatch[i].name + "</td>" +
+               "<td class='flyStatus' >" + hatch[i].status + "</td>" +
                "</tr>";
          }
          out += "</table>";
