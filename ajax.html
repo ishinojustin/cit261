@@ -7,7 +7,21 @@
       function loadJSON() {
          var data_file = "https://ishinojustin.github.io/cit261/hatch_feb.json";
          var http_request = new XMLHttpRequest();
-         //         try { // // Opera 8.0+, Firefox, Chrome, Safari // http_request = new XMLHttpRequest(); // } catch (e) { // // Internet Explorer Browsers // try { // http_request = new ActiveXObject("Msxml2.XMLHTTP"); // // } catch (e) { // // try { // http_request = new ActiveXObject("Microsoft.XMLHTTP"); // } catch (e) { // // Something went wrong // alert("Your browser broke!"); // return false; // } // // } // }
+         try {
+            Opera 8.0 + , Firefox, Chrome, Safari http_request = new XMLHttpRequest();
+         } catch (e) {
+            Internet Explorer Browsers
+            try {
+               http_request = new ActiveXObject("Msxml2.XMLHTTP");
+            } catch (e) {
+               try {
+                  http_request = new ActiveXObject("Microsoft.XMLHTTP");
+               } catch (e) {
+                  Something went wrong alert("Your browser broke!");
+                  return false;
+               }
+            }
+         }
 
          http_request.onreadystatechange = function() {
             if (http_request.readyState == 4 && http_request.status == 200) {
@@ -22,7 +36,7 @@
          document.getElementById("div").innerHTML = "<br><br><br>";
          var hatch = JSON.parse(response);
          console.log(hatch);
-         var out = "<table id=prophetList> <th>Fly Name</th>" +
+         var out = "<table id=hatchList> <th>Fly Name</th>" +
             "<th>Status</th>";
 
          for (i = 0; i < hatch.length; i++) {

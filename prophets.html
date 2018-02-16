@@ -16,91 +16,6 @@
          border-collapse: collapse;
          padding: 5px;
       }
-
-
-      /*	If the DOM object has a class of highlight make the text blue	*/
-
-      .highlight {
-         background-color: #90C3D4;
-      }
-
-      /*	When the DOM object has a class of slidingText move and transform the text	*/
-
-      .slidingText {
-         -webkit-animation: cssAnimateSlidingText 3s ease 0s 1 forwards
-      }
-
-      /*	When the DOM object has a class of wiggle-me on Hover wiggle the text 	*/
-
-      .wiggle-me:hover {
-         -ms-animation: wiggle .3s 2;
-         -moz-animation: wiggle .3s 2;
-         -webkit-animation: wiggle .3s 2;
-         animation: wiggle .3s 2;
-      }
-
-      @-ms-keyframes wiggle {
-         0% {
-            -ms-transform: rotate(3deg);
-         }
-         50% {
-            -ms-transform: rotate(-3deg);
-         }
-         100% {
-            -ms-transform: rotate(3deg);
-         }
-      }
-
-      @-moz-keyframes wiggle {
-         0% {
-            -moz-transform: rotate(3deg);
-         }
-         50% {
-            -moz-transform: rotate(-3deg);
-         }
-         100% {
-            -moz-transform: rotate(3deg);
-         }
-      }
-
-      @-webkit-keyframes wiggle {
-         0% {
-            -webkit-transform: rotate(3deg);
-         }
-         50% {
-            -webkit-transform: rotate(-3deg);
-         }
-         100% {
-            -webkit-transform: rotate(3deg);
-         }
-      }
-
-      @keyframes wiggle {
-         0% {
-            transform: rotate(3deg);
-         }
-         50% {
-            transform: rotate(-3deg);
-         }
-         100% {
-            transform: rotate(3deg);
-         }
-      }
-
-      @-webkit-keyframes cssAnimateSlidingText {
-         0% {
-            -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
-         }
-         25% {
-            -webkit-transform: rotate(45deg) scale(2) skew(-45deg) translate(120px);
-         }
-         75% {
-            -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(240px);
-         }
-         100% {
-            -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
-         }
-      }
    </style>
 </head>
 
@@ -117,8 +32,23 @@
    <script>
       function getJSON() {
          var xmlhttp = new XMLHttpRequest();
-         var url = "https://ishinojustin.github.io/cit261/hatch_feb.json";
-
+         var url = "http://ishinojustin.github.io/cit261/hatch_feb.json";
+         try {
+            // Opera 8.0+, Firefox, Chrome, Safari
+            xmlhttp = new XMLHttpRequest();
+         } catch (e) {
+            try {
+               // Internet Explorer Browsers
+               xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+            } catch (e) {
+               try {
+                  xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+               } catch (e) {
+                  alert("Your browser broke!");
+                  return false;
+               }
+            }
+         }
          xmlhttp.onreadystatechange = function() {
             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
                buildTable(xmlhttp.responseText);
@@ -132,7 +62,7 @@
          document.getElementById("div").innerHTML = "<br><br><br>";
          var hatch = JSON.parse(response);
          console.log(hatch);
-         var out = "<table id=prophetList> <th>Fly Name</th>" +
+         var out = "<table id=hatchList> <th>Fly Name</th>" +
             "<th>Status</th>";
 
          for (i = 0; i < hatch.length; i++) {
