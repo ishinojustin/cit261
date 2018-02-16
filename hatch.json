@@ -1,0 +1,1300 @@
+{
+   "months": [
+      {
+         "monthName": "January",
+         "flies": [{
+               "flyName": "Midge",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Gray Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pink Albert",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Mahogany Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Trico",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Caddis",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Flav",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Brown Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Green Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pale Morning Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Small Stonefly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Golden Stonefly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Salmonfly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "March Brown",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "BWO",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         }]
+      },
+      {
+         "monthName": "February",
+         "flies": [{
+               "flyName": "Midge",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Gray Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pink Albert",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Mahogany Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Trico",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Caddis",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Flav",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Brown Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Green Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pale Morning Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Small Stonefly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Golden Stonefly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Salmonfly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "March Brown",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "BWO",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         }]
+      },
+      {
+         "monthName": "March",
+         "flies": [{
+               "flyName": "Midge",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Gray Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pink Albert",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Mahogany Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Trico",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Caddis",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Flav",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Brown Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Green Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pale Morning Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Small Stonefly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Golden Stonefly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Salmonfly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "March Brown",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "BWO",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         }]
+      },
+      {
+         "monthName": "April",
+         "flies": [{
+               "flyName": "Midge",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": true,
+               "isDormant": false
+         },
+            {
+               "flyName": "Gray Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pink Albert",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Mahogany Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Trico",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Caddis",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Flav",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Brown Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Green Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pale Morning Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Small Stonefly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Golden Stonefly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Salmonfly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "March Brown",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "BWO",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         }]
+      },
+      {
+         "monthName": "May",
+         "flies": [{
+               "flyName": "Midge",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Gray Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pink Albert",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Mahogany Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Trico",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Caddis",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": true,
+               "isDormant": false
+         },
+            {
+               "flyName": "Flav",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Brown Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Green Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pale Morning Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": true,
+               "isDormant": false
+         },
+            {
+               "flyName": "Small Stonefly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": true,
+               "isDormant": false
+         },
+            {
+               "flyName": "Golden Stonefly",
+               "isPeak": false,
+               "isMajor": true,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Salmonfly",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "March Brown",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "BWO",
+               "isPeak": false,
+               "isMajor": true,
+               "isMinor": false,
+               "isDormant": false
+         }]
+      },
+      {
+         "monthName": "June",
+         "flies": [{
+               "flyName": "Midge",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Gray Drake",
+               "isPeak": false,
+               "isMajor": true,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Pink Albert",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": true,
+               "isDormant": false
+         },
+            {
+               "flyName": "Mahogany Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Trico",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Caddis",
+               "isPeak": false,
+               "isMajor": true,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Flav",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": true,
+               "isDormant": false
+         },
+            {
+               "flyName": "Brown Drake",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Green Drake",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Pale Morning Dun",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Small Stonefly",
+               "isPeak": false,
+               "isMajor": true,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Golden Stonefly",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Salmonfly",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "March Brown",
+               "isPeak": false,
+               "isMajor": true,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "BWO",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": true,
+               "isDormant": false
+         }]
+      },
+      {
+         "monthName": "July",
+         "flies": [{
+               "flyName": "Midge",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Gray Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": true,
+               "isDormant": false
+         },
+            {
+               "flyName": "Pink Albert",
+               "isPeak": false,
+               "isMajor": true,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Mahogany Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": true,
+               "isDormant": false
+         },
+            {
+               "flyName": "Trico",
+               "isPeak": false,
+               "isMajor": true,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Caddis",
+               "isPeak": false,
+               "isMajor": true,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Flav",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Brown Drake",
+               "isPeak": false,
+               "isMajor": true,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Green Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": true,
+               "isDormant": false
+         },
+            {
+               "flyName": "Pale Morning Dun",
+               "isPeak": false,
+               "isMajor": true,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Small Stonefly",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Golden Stonefly",
+               "isPeak": false,
+               "isMajor": true,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Salmonfly",
+               "isPeak": false,
+               "isMajor": true,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "March Brown",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "BWO",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         }]
+      },
+      {
+         "monthName": "August",
+         "flies": [{
+               "flyName": "Midge",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Gray Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pink Albert",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": true,
+               "isDormant": false
+         },
+            {
+               "flyName": "Mahogany Dun",
+               "isPeak": false,
+               "isMajor": true,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Trico",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Caddis",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Flav",
+               "isPeak": false,
+               "isMajor": true,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Brown Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Green Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pale Morning Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": true,
+               "isDormant": false
+         },
+            {
+               "flyName": "Small Stonefly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": true,
+               "isDormant": false
+         },
+            {
+               "flyName": "Golden Stonefly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Salmonfly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "March Brown",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "BWO",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         }]
+      },
+      {
+         "monthName": "September",
+         "flies": [{
+               "flyName": "Midge",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Gray Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pink Albert",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Mahogany Dun",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Trico",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": true,
+               "isDormant": false
+         },
+            {
+               "flyName": "Caddis",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": true,
+               "isDormant": false
+         },
+            {
+               "flyName": "Flav",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Brown Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Green Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pale Morning Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Small Stonefly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Golden Stonefly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Salmonfly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "March Brown",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "BWO",
+               "isPeak": false,
+               "isMajor": true,
+               "isMinor": false,
+               "isDormant": false
+         }]
+      },
+      {
+         "monthName": "October",
+         "flies": [{
+               "flyName": "Midge",
+               "isPeak": false,
+               "isMajor": true,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Gray Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pink Albert",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Mahogany Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": true,
+               "isDormant": false
+         },
+            {
+               "flyName": "Trico",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Caddis",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Flav",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Brown Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Green Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pale Morning Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Small Stonefly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Golden Stonefly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Salmonfly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "March Brown",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "BWO",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         }]
+      },
+      {
+         "monthName": "November",
+         "flies": [{
+               "flyName": "Midge",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Gray Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pink Albert",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Mahogany Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Trico",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Caddis",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Flav",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Brown Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Green Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pale Morning Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Small Stonefly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Golden Stonefly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Salmonfly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "March Brown",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "BWO",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": true,
+               "isDormant": false
+         }]
+      },
+      {
+         "monthName": "December",
+         "flies": [{
+               "flyName": "Midge",
+               "isPeak": true,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": false
+         },
+            {
+               "flyName": "Gray Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pink Albert",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Mahogany Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Trico",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Caddis",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Flav",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Brown Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Green Drake",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Pale Morning Dun",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Small Stonefly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Golden Stonefly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "Salmonfly",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "March Brown",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         },
+            {
+               "flyName": "BWO",
+               "isPeak": false,
+               "isMajor": false,
+               "isMinor": false,
+               "isDormant": true
+         }]
+      },
+   ]
+}
