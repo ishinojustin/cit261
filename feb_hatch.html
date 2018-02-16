@@ -53,7 +53,7 @@
          document.getElementById("div").innerHTML = "<br><br><br>";
          var hatch = JSON.parse(response);
          console.log(hatch);
-         var out = "<table id=hatchList> <th>Fly Name</th>" +
+         var out = "<table class=center> <th>Fly Name</th>" +
             "<th>Status</th>";
 
          for (i = 0; i < hatch.length; i++) {
@@ -66,6 +66,7 @@
 
          document.getElementById("id01").innerHTML = out;
       }
+
    </script>
 
 </body>
