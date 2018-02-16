@@ -1,35 +1,50 @@
 /*Main Body Formatting*/
 
 html {
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+   box-sizing: inherit;
 }
 
 body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    font-family: helvetica, verdana, arial, sans-serif;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   font-size: 16px;
+   font-family: helvetica, verdana, arial, sans-serif;
+   background-image: url(images/background-canvas@2x.png)
 }
 
 
 /* Main Navigation format */
 
 ul {
-    list-style-type: none;
+   list-style-type: none;
 }
 
 /* Topics Navigation */
 
 ul li a {
-    display: block;
-    text-decoration: none;
-    padding: .5em;
-    margin: .25em;
+   display: block;
+   text-decoration: none;
+   padding: .5em;
+   margin: .25em;
+}
+
+h1 {
+   border-bottom: 3px solid #274D59;
+   color: #3c240e;
+   font-size: 30px;
+}
+
+table,
+th,
+td {
+   border: 1px solid grey;
+   border-collapse: collapse;
+   padding: 5px;
 }

@@ -10,7 +10,7 @@
 
 <body>
 
-   <h1>February Hatch for Henry's Fork of the Snake River</h1>
+   <h1><span id="month"></span> Hatch for Henry's Fork of the Snake River</h1>
 
    <br>
    <p>When you click the button bellow it will load a JSON file that will tell you which flies are active during February on the Henry's Fork River.</p>
@@ -23,7 +23,7 @@
    <script>
       function getJSON() {
          var xmlhttp = new XMLHttpRequest();
-         var url = "hatch_feb.json";
+         var url = "hatch.json";
          try {
             // Opera 8.0+, Firefox, Chrome, Safari
             xmlhttp = new XMLHttpRequest();

@@ -4,10 +4,7 @@
          "monthName": "January",
          "flies": [{
                "flyName": "Midge",
-               "isPeak": true,
-               "isMajor": false,
-               "isMinor": false,
-               "isDormant": false
+               "status": "Peak"
          },
             {
                "flyName": "Gray Drake",
