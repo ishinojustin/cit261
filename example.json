@@ -1,0 +1,109 @@
+[{
+   "ride": "Splash Mountain",
+   "location": ["Disneyland", "Magic Kingdom", "Tokyo Disneyland"],
+   "picURL": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Splash_Mountain_at_Disneyland.JPG",
+   "heightRestriction": "35 inches",
+   "firstOpen": "July 17, 1989"
+}, {
+   "ride": "Pirates of the Caribbean",
+   "location": ["Disneyland", "Magic Kingdom", "Tokyo Disneyland", "Disneyland Paris", "Shanghai Disneyland"],
+   "picURL": "https://i.ytimg.com/vi/Uv7APUxrebw/maxresdefault.jpg",
+   "heightRestriction": "None",
+   "firstOpen": "March 18, 1967"
+}, {
+   "ride": "Big Thunder Mountain Railroad",
+   "location": ["Disneyland", "Magic Kingdom", "Tokyo Disneyland", "Disneyland Paris"],
+   "picURL": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Big_Thunder_Mountain_Entrance_Sign_at_Magic_Kingdom.jpg",
+   "heightRestriction": "40 inches",
+   "firstOpen": "September 2, 1979"
+}, {
+   "ride": "Haunted Mansion",
+   "location": ["Disneyland", "Magic Kingdom", "Tokyo Disneyland"],
+   "picURL": "http://humanstein.com/wp-content/uploads/2016/10/the-haunted-mansion.jpg",
+   "heightRestriction": "None",
+   "firstOpen": "August 9, 1969"
+}, {
+   "ride": "Space Mountain",
+   "location": ["Disneyland", "Magic Kingdom", "Tokyo Disneyland", "Disneyland Paris", "Hong Kong Disneyland"],
+   "picURL": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Space_mountain.jpg",
+   "heightRestriction": "40 inches",
+   "firstOpen": "January 15, 1975"
+}, {
+   "ride": "Star Tours",
+   "location": ["Disneyland", "Disney's Hollywood Studios", "Tokyo Disneyland", "Disneyland Paris"],
+   "picURL": "https://upload.wikimedia.org/wikipedia/commons/6/61/Star_Tours_logo.svg",
+   "heightRestriction": "40 inches",
+   "firstOpen": "December 1986"
+}, {
+   "ride": "Toy Story Midway Mania!",
+   "location": ["Disney California Adventure", "Disney's Hollywood Studios", "Tokyo DisneySea"],
+   "picURL": "https://upload.wikimedia.org/wikipedia/commons/2/2d/DHS_ToyStoryMidwayMania.jpg",
+   "heightRestriction": "None",
+   "firstOpen": "May 31, 2008"
+}, {
+   "ride": "Indiana Jones Adventure",
+   "location": ["Disneyland", "Tokyo DisneySea"],
+   "picURL": "https://www.mouseplanet.info/gallery/d/152190-1/12-10-12%231+-+Disneyland+Indiana+Jones+Adventure.jpg",
+   "heightRestriction": "46 inches",
+   "firstOpen": "March 4, 1995"
+}, {
+   "ride": "The Twilight Zone Tower of Terror",
+   "location": ["Disney California Adventure", "Disney's Hollywood Studios", "Disneyland Paris", "Tokyo DisneySea"],
+   "picURL": "https://upload.wikimedia.org/wikipedia/commons/4/48/TowerOfTerror_MGM.jpg",
+   "heightRestriction": "40 inches",
+   "firstOpen": "July 22, 1994"
+}, {
+   "ride": "It's a Small World",
+   "location": ["Disneyland", "Magic Kingdom", "Tokyo Disneyland", "Disneyland Paris", "Hong Kong Disneyland"],
+   "picURL": "https://pmcvariety.files.wordpress.com/2016/02/its-a-small-world.jpg?w=670&h=377&crop=1",
+   "heightRestriction": "None",
+   "firstOpen": "May 28, 1966"
+}, {
+   "ride": "Soarin Around The World",
+   "location": ["Disney California Adventure", "Epcot", "Shanghai Disneyland Park", "Tokyo DisneySea"],
+   "picURL": "https://cdn.d23.com/cdn2015/wp-content/uploads/2016/06/1180-x-600-062216_soarin-easter-eggs-780x440.jpg",
+   "heightRestriction": "40 inches",
+   "firstOpen": "February 8, 2001"
+}, {
+   "ride": "Radiator Springs Racers",
+   "location": ["Disney California Adventure"],
+   "picURL": "https://www.mouseplanet.info/gallery/d/141937-1/RSR1-060912-AVP.jpg",
+   "heightRestriction": "40 inches",
+   "firstOpen": "June 15, 2012"
+}, {
+   "ride": "Buzz Lightyear",
+   "location": ["Disneyland", "Magic Kingdom", "Tokyo Disneyland", "Hong Kong Disneyland", "Disneyland Paris", "Shanghai Disneyland Park"],
+   "picURL": "https://thrillz.co/images/Rides/buzz-lightyear-laser-blast-265/buzz-lightyear.jpg",
+   "heightRestriction": "None",
+   "firstOpen": "November 3, 1998"
+}, {
+   "ride": "Matterhorn Bobsleds",
+   "location": ["Disneyland"],
+   "picURL": "https://i.ytimg.com/vi/QJPnCf-WTR8/maxresdefault.jpg",
+   "heightRestriction": "42 inches",
+   "firstOpen": "June 14, 1959"
+}, {
+   "ride": "Mad Tea Party",
+   "location": ["Disneyland", "Magic Kingdom", "Tokyo Disneyland", "Disneyland Paris", "Hong Kong Disneyland"],
+   "picURL": "https://upload.wikimedia.org/wikipedia/commons/8/80/TeacupsMadTeaParty_wb.jpg",
+   "heightRestriction": "None",
+   "firstOpen": "June 14, 1959"
+}, {
+   "ride": "It's Tough to Be a Bug!",
+   "location": ["Disney California Adventure", "Disney's Animal Kingdom"],
+   "picURL": "https://upload.wikimedia.org/wikipedia/commons/1/14/Its_Tough_to_be_a_Bug_Sign_%282598576385%29.jpg",
+   "heightRestriction": "None",
+   "firstOpen": "April 22, 1998"
+}, {
+   "ride": "Rock 'n' Roller Coaster",
+   "location": ["Disney's Hollywood Studios", "Disneyland Paris"],
+   "picURL": "http://www.chipandco.com/wp-content/uploads/2011/04/0910BZ_2238GD39238538.jpg",
+   "heightRestriction": "48 inches",
+   "firstOpen": "July 29, 1999"
+}, {
+   "ride": "Expedition Everest",
+   "location": ["Disney's Animal Kingdom"],
+   "picURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Expedition_Everest.jpg/1920px-Expedition_Everest.jpg",
+   "heightRestriction": "44 inches",
+   "firstOpen": "April 7, 2006"
+}]

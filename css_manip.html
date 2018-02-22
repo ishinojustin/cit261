@@ -3,131 +3,78 @@
 <head></head>
 <style>
    body {
-      background-color: changeBackground(color);
+      font-family: Verdana, Arial, sans-serif;
+      background-image: url("images/background-canvas@2x.png");
    }
 
-   div.first {
-      font-size: 15px;
-      color: FireBrick;
+   .firstDiv {
+      padding: .25em;
+      margin: .5em;
+      color: green;
+      border: solid 2px;
+      border-color: black;
    }
 
-   div.second {
-      font-size: 300%;
-      color: blue;
+   .secDiv {
+      padding: 1em;
+      margin: 3em;
+      color: blueviolet;
+      border: dashed 3px firebrick;
    }
 </style>
 
+<body>
+   <h1>Manipulating CSS Class Properties Using JavaScript</h1>
+
+   <h2>Understanging (this)</h2>
+   <p>From w3schools it describes <strong>this</strong> as a keyword that &quot;is the object that &#39;owns&#39; the current code.&quot; </p>
+   <ul id="list">
+      <li id="item1">item 1</li>
+      <li id="item2">item 2</li>
+      <li id="item3">item 3</li>
+   </ul>
+
+   <h2>Changing HTML Elements Class</h2>
+   <div id="div1" class="firstDiv" onclick="changeClass(this)">Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</div>
+   <div class="secDiv" onmouseenter="changeClass(this)" onmouseleave="changeClass(this)">Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</div>
+
+</body>
+
 <script>
-   var bodyColor;
+   var list = document.getElementById('list');
+   list.addEventListener('click', function(evt) {
+      console.log("this is the element the event is bound to: " + this.id);
+      console.log("the event target is the clicked element: " + evt.target.id);
+   });
 
-   function testFunction() {
+   document.getElementById("div1").onmouseenter = function() {
+      mouseEnter()
+   };
+   document.getElementById("div1").onmouseleave = function() {
+      mouseLeave()
+   };
 
-      document.getElementById("n1").style.color = "red";
-
-   }
-
-   function testFunction1() {
-
-      document.getElementById("n1").style.color = "blue";
-
-   }
-
-   function testFunction2() {
-
-      document.getElementById("n1").style.color = "green";
-
-   }
-
-   function inputFunction() {
-
-      var colorChanger = prompt("Please enter a color", "yellow");
-
-      if (colorChanger != null) {
-
-         document.getElementById("n1").style.color = colorChanger;
-      }
-   }
-
-   function goAway() {
-      document.getElementById("n1").style.visibility = 'hidden';
+   function mouseEnter() {
+      document.getElementById("div1").style.backgroundColor = "#A4C639";
+      document.getElementById("div1").style.backgroundImage = "none";
+      document.getElementById("div1").style.color = "wheat";
 
    }
 
-   function visible() {
-      document.getElementById("n1").style.visibility = 'visible';
+   function mouseLeave() {
+      document.getElementById("div1").style.backgroundImage = "url(images/background-canvas@2x.png)";
+      document.getElementById("div1").style.backgroundColor = "none";
+      document.getElementById("div1").style.color = "green";
+
 
    }
 
-   function inputBackground() {
-
-      var f1 = prompt("Please enter a color", "linen");
-
-      if (f1 != null) {
-
-         document.body.style.background = f1;
-      }
-   }
-
-
-
-   function moveClass(el) {
-      if (el.className == "first") {
-         el.className = "second";
-      } else {
-         el.className = "first";
+   function changeClass(evt) {
+      if (evt.className === "firstDiv") {
+         evt.className = "secDiv";
+      } else if (evt.className === "secDiv") {
+         evt.className = "firstDiv";
       }
    }
 </script>
-
-
-<body>
-   <h1>Manipulating CSS Class Properties Using JavaScript</h1>
-   <p id="n1"> Change me around sucka</p>
-
-   <button type="button" onClick="testFunction()">Click on me if you dare</button>
-   <br>
-
-   <button type="button" onClick="testFunction1()">Click on me if you dare</button>
-   <br>
-
-   <button type="button" onClick="testFunction2()">Click on me if you dare</button>
-   <br>
-
-   <button onclick="inputFunction()">pick a color dude</button><br>
-   <br>
-   <button onclick="goAway()">Hide Me</button><br>
-   <br>
-   <button onclick="visible()">reveal me</button>
-   <br>
-   <button onclick="inputBackground()">pick a background color</button>
-   <br>
-   <br>
-   <p>DarkSeaGreen, FloralWhite, DodgerBlue, ForestGreen, Gold, Grey, FireBrick, Lavender, LawnGreen</p>
-   <br>
-
-   <!-- begin divs  -->
-   <div class="first" onclick="moveClass(this)">
-      This text Resides In a Div
-   </div>
-
-   <div class="second" onclick="moveClass(this)">
-      This text Resides In a Div
-   </div>
-
-   <div class="first" onclick="moveClass(this)">
-      This text Resides In a Div
-   </div>
-
-
-   <div id="id1" class="fourth" onclick="moveClass(this)">This is also a div</div>
-
-   <br>
-
-   <div class="fourth">
-      This text Resides In a Div
-   </div>
-
-
-
-</body>
 </html>

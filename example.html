@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+   <meta charset="utf-8">
+   <title>Robbie Dodenbier - CIT 261</title>
+   <meta name="description" content="Assignment Portal page for Robbie Dodenbier in CIT 261 - Mobile Web Frontend Development at Brigham Young University - Idaho.">
+   <meta name="viewport" content="width=device-width, inital-scale=1">
+   <link rel="stylesheet" href="styles/normalize.css">
+   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+   <link rel="stylesheet" href="styles/main.css">
+   <link rel="stylesheet" href="styles/disney.css">
+   <script type="text/javascript" src="example.json"></script>
+   <script type="text/javascript" src="example.js"></script>
+</head>
+
+<body>
+   <h2>AJAX requesting a JSON file</h2>
+   <p>Everyone that knows me, knows I'm a big fan of the Disneyland Parks. I'm going to list all of my favorites in a JSON file. Sliding the bar below will reveal each photo and stats about the ride.</p>
+   <div id="slideContainer">
+      <input type="range" value="0" min="0" max="17" class="slider" oninput="disneyJSON(this.value)" onchange="disneyJSON(this.value)">
+   </div>
+   <div id="jsonHeader"></div>
+   <div id="jsonPic"></div>
+   <div id="jsonDetails"></div>
+   <div id="jsonStringOutput"></div>
+   <button type="button" onclick="window.location.href='index.html'">Home</button>
+</body>
+
+</html>
