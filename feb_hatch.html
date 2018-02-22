@@ -53,13 +53,13 @@
          document.getElementById("div").innerHTML = "<br><br><br>";
          var hatch = JSON.parse(response);
          console.log(hatch);
-         var out = "<table class=center> <th>Fly Name</th>" +
+         var out = "<table class=center id=flyTable> <th>Fly Name</th>" +
             "<th>Status</th>";
 
          for (i = 0; i < hatch.length; i++) {
             out += "<tr>" +
                "<td class='flyName'>" + hatch[i].name + "</td>" +
-               "<td class='flyStatus' >" + hatch[i].status + "</td>" +
+               "<td class='flyStatus' onmouseover='highlightStatus(this)'>" + hatch[i].status + "</td>" +
                "</tr>";
          }
          out += "</table>";
@@ -67,6 +67,15 @@
          document.getElementById("id01").innerHTML = out;
       }
 
+      function highlightStatus(obj) {
+         status = obj.innerText;
+         var rowCount = document.getElementById("flyTable").rows.length;
+
+         document.getElementsByClassName("flyStatus").style.backgroundColor = '#377d22';
+
+
+         //         for (var i = 1; i < rowCount; i++) { // var row=d ocument.getElementById( "flyTable").rows[i]; // if (row.childNodes[2].innerHTML==D ormant) { // document.getElementsByClassName( "flyStatus").style.backgroundColor='wheat' ; // } else if (row.childNodes[2].innerHTML==M inor) { // document.getElementsByClassName( "flyStatus").style.backgroundColor='#fffe54' ; // } else if (row.childNodes[2].innerHTML==M ajor) { // document.getElementsByClassName( "flyStatus").style.backgroundColor='8fbe3a' ; // } else if (row.childNodes[2].innerHTML==P eak) { // document.getElementsByClassName( "flyStatus").style.backgroundColor='#377d22' ; // } // }
+      }
    </script>
 
 </body>

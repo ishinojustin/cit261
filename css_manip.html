@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<style>
+   body {
+      background-color: changeBackground(color);
+   }
+
+   div.first {
+      font-size: 15px;
+      color: FireBrick;
+   }
+
+   div.second {
+      font-size: 300%;
+      color: blue;
+   }
+</style>
+
+<script>
+   var bodyColor;
+
+   function testFunction() {
+
+      document.getElementById("n1").style.color = "red";
+
+   }
+
+   function testFunction1() {
+
+      document.getElementById("n1").style.color = "blue";
+
+   }
+
+   function testFunction2() {
+
+      document.getElementById("n1").style.color = "green";
+
+   }
+
+   function inputFunction() {
+
+      var colorChanger = prompt("Please enter a color", "yellow");
+
+      if (colorChanger != null) {
+
+         document.getElementById("n1").style.color = colorChanger;
+      }
+   }
+
+   function goAway() {
+      document.getElementById("n1").style.visibility = 'hidden';
+
+   }
+
+   function visible() {
+      document.getElementById("n1").style.visibility = 'visible';
+
+   }
+
+   function inputBackground() {
+
+      var f1 = prompt("Please enter a color", "linen");
+
+      if (f1 != null) {
+
+         document.body.style.background = f1;
+      }
+   }
+
+
+
+   function moveClass(el) {
+      if (el.className == "first") {
+         el.className = "second";
+      } else {
+         el.className = "first";
+      }
+   }
+</script>
+
+
+<body>
+   <h1>Manipulating CSS Class Properties Using JavaScript</h1>
+   <p id="n1"> Change me around sucka</p>
+
+   <button type="button" onClick="testFunction()">Click on me if you dare</button>
+   <br>
+
+   <button type="button" onClick="testFunction1()">Click on me if you dare</button>
+   <br>
+
+   <button type="button" onClick="testFunction2()">Click on me if you dare</button>
+   <br>
+
+   <button onclick="inputFunction()">pick a color dude</button><br>
+   <br>
+   <button onclick="goAway()">Hide Me</button><br>
+   <br>
+   <button onclick="visible()">reveal me</button>
+   <br>
+   <button onclick="inputBackground()">pick a background color</button>
+   <br>
+   <br>
+   <p>DarkSeaGreen, FloralWhite, DodgerBlue, ForestGreen, Gold, Grey, FireBrick, Lavender, LawnGreen</p>
+   <br>
+
+   <!-- begin divs  -->
+   <div class="first" onclick="moveClass(this)">
+      This text Resides In a Div
+   </div>
+
+   <div class="second" onclick="moveClass(this)">
+      This text Resides In a Div
+   </div>
+
+   <div class="first" onclick="moveClass(this)">
+      This text Resides In a Div
+   </div>
+
+
+   <div id="id1" class="fourth" onclick="moveClass(this)">This is also a div</div>
+
+   <br>
+
+   <div class="fourth">
+      This text Resides In a Div
+   </div>
+
+
+
+</body>
+</html>
