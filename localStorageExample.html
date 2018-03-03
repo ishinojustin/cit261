@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <link rel="stylesheet" type="text/css" href="minimal.css">
+   <title>Justin Ishino | CIT 261</title>
+</head>
+
+<body>
+   <h1>Save Your Name</h1>
+   <form>
+      <input id="item" type="text" placeholder="New" required>
+   </form>
+
+   <h2>Items</h2>
+   <ul></ul>
+
+   <button>Clear All</button>
+
+   <p><button onclick="clickCounter()" type="button">Click me!</button></p>
+   <div id="result"></div>
+   <p>Click the button to see the counter increase.</p>
+   <p>Close the browser tab (or window), and try again, and the counter will continue to count (is not reset).</p>
+
+</body>
+<script>
+   function clickCounter() {
+      if (typeof(Storage) !== "undefined") {
+         if (localStorage.clickcount) {
+            localStorage.clickcount = Number(localStorage.clickcount) + 1;
+         } else {
+            localStorage.clickcount = 1;
+         }
+         document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+      } else {
+         document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+      }
+   }
+</script>
+
+<script>
+   const form = document.querySelector('form');
+   const ul = document.querySelector('ul');
+   const button = document.querySelector('button');
+   const input = document.getElementById('item');
+   let itemsArray = localStorage.getItem('items') ? JSON.parse(localStorage.getItem('items')) : [];
+
+   localStorage.setItem('items', JSON.stringify(itemsArray));
+   const data = JSON.parse(localStorage.getItem('items'));
+
+   const liMaker = (text) => {
+      const li = document.createElement('li');
+      li.textContent = text;
+      ul.appendChild(li);
+   }
+
+   form.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      itemsArray.push(input.value);
+      localStorage.setItem('items', JSON.stringify(itemsArray));
+      liMaker(input.value);
+      input.value = "";
+   });
+
+   data.forEach(item => {
+      liMaker(item);
+   });
+
+   button.addEventListener('click', function() {
+      localStorage.clear();
+      while (ul.firstChild) {
+         ul.removeChild(ul.firstChild);
+      }
+   });
+</script>
+</html>

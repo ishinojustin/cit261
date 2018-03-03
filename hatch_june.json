@@ -1,0 +1,62 @@
+ [
+    {
+       "name": "Green Drake",
+       "status": "Major"
+      },
+    {
+       "name": "Pink Albert",
+       "status": "Minor"
+      },
+    {
+       "name": "Mahogany Dun",
+       "status": "Dormant"
+      },
+    {
+       "name": "Trico",
+       "status": "Dormant"
+      },
+    {
+       "name": "Caddis",
+       "status": "Major"
+      },
+    {
+       "name": "Flav",
+       "status": "Minor"
+      },
+    {
+       "name": "Brown Drake",
+       "status": "Peak"
+      },
+    {
+       "name": "Western Green Drake",
+       "status": "Peak"
+      },
+    {
+       "name": "PMD",
+       "status": "Peak"
+      },
+    {
+       "name": "Small Stoneflies",
+       "status": "Major"
+      },
+    {
+       "name": "Golden Stonefly",
+       "status": "Peak"
+      },
+    {
+       "name": "Salmonfly",
+       "status": "Peak"
+      },
+    {
+       "name": "Western March Brown",
+       "status": "Major"
+      },
+    {
+       "name": "BWO",
+       "status": "Minor"
+      },
+    {
+       "name": "Midge",
+       "status": "Dormant"
+      }
+   ]

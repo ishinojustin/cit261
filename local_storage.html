@@ -10,20 +10,23 @@
 
 <body>
 
-   <h1><span id="month"></span> Hatch for Henry's Fork of the Snake River</h1>
+   <h1>June Hatch for Henry's Fork of the Snake River</h1>
 
    <br>
    <p>When you click the button bellow it will load a JSON file that will tell you which flies are active during February on the Henry's Fork River.</p>
    <br>
 
    <input type="button" value="View" onclick="getJSON()" />
+   <input type="button" value="Clear Local Storage" onclick()="clearStorage()"/>
+   <input type="button" value="Save All" onclick="saveAll()"/>
    <div id="div"><br><br><br></div>
    <div id="id01"></div>
+   <div id="id02"></div>
 
    <script>
       function getJSON() {
          var xmlhttp = new XMLHttpRequest();
-         var url = "hatch.json";
+         var url = "hatch_june.json";
          try {
             // Opera 8.0+, Firefox, Chrome, Safari
             xmlhttp = new XMLHttpRequest();
@@ -53,19 +56,28 @@
          document.getElementById("div").innerHTML = "<br><br><br>";
          var hatch = JSON.parse(response);
          console.log(hatch);
-         var out = "<table id=hatchList> <th>Fly Name</th>" +
+         var out = "<table class=center id=flyTable> <th>Fly Name</th>" +
             "<th>Status</th>";
 
-         for (i = 0; i < hatch[0].jan.flies.length; i++) {
+         for (i = 0; i < hatch.length; i++) {
             out += "<tr>" +
-               "<td class='flyName'>" + hatch[0].jan.flies[i].name + "</td>" +
-               "<td class='flyStatus' >" + hatch[0].jan.flies[i].status + "</td>" +
+               "<td class='flyName' onclick='saveFly(this)'>" + hatch[i].name + "</td>" +
+               "<td class='flyStatus' onmouseover='highlightStatus(this)'>" + hatch[i].status + "</td>" +
                "</tr>";
          }
          out += "</table>";
 
          document.getElementById("id01").innerHTML = out;
       }
+
+      function highlightStatus(obj) {
+         status = obj.innerText;
+         var rowCount = document.getElementById("flyTable").rows.length;
+
+         document.getElementsByClassName("flyStatus").style.backgroundColor = '#377d22';
+      }
+
+      
    </script>
 
 </body>
