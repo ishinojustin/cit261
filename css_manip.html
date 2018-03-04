@@ -27,7 +27,7 @@
    <h1>Manipulating CSS Class Properties Using JavaScript</h1>
 
    <h2>Understanging (this)</h2>
-   <p>From w3schools it describes <strong>this</strong> as a keyword that &quot;is the object that &#39;owns&#39; the current code.&quot; </p>
+   <p>From w3schools it describes <strong>this</strong> as a keyword that &quot;is the object that &#39;owns&#39; the current code.&quot; When you click on the list item it will alert you to which element the click event is bound to.</p>
    <ul id="list">
       <li id="item1">item 1</li>
       <li id="item2">item 2</li>
@@ -35,7 +35,9 @@
    </ul>
 
    <h2>Changing HTML Elements Class</h2>
+   <p>When you click on the first paragraph it will change the actual class selector so secDiv and make is look like the second paragraph. On your mouse entering the second paragaph it will change the class selector to firstDiv and will change to look like the first paragraph and on your mouse leaving it will change back.</p>
    <div id="div1" class="firstDiv" onclick="changeClass(this)">Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</div>
+   
    <div class="secDiv" onmouseenter="changeClass(this)" onmouseleave="changeClass(this)">Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. Kevin capicola sausage, buffalo bresaola venison turkey shoulder picanha ham pork tri-tip meatball meatloaf ribeye. Doner spare ribs andouille bacon sausage. Ground round jerky brisket pastrami shank.</div>
 
 </body>
@@ -43,31 +45,31 @@
 <script>
    var list = document.getElementById('list');
    list.addEventListener('click', function(evt) {
-      console.log("this is the element the event is bound to: " + this.id);
+      window.alert("this is the element the event is bound to: '" + this.id + "'. The event target is the clicked element: '" + evt.target.id + "'");
       console.log("the event target is the clicked element: " + evt.target.id);
    });
 
-   document.getElementById("div1").onmouseenter = function() {
-      mouseEnter()
-   };
-   document.getElementById("div1").onmouseleave = function() {
-      mouseLeave()
-   };
-
-   function mouseEnter() {
-      document.getElementById("div1").style.backgroundColor = "#A4C639";
-      document.getElementById("div1").style.backgroundImage = "none";
-      document.getElementById("div1").style.color = "wheat";
-
-   }
-
-   function mouseLeave() {
-      document.getElementById("div1").style.backgroundImage = "url(images/background-canvas@2x.png)";
-      document.getElementById("div1").style.backgroundColor = "none";
-      document.getElementById("div1").style.color = "green";
-
-
-   }
+//   document.getElementById("div1").onmouseenter = function() {
+//      mouseEnter()
+//   };
+//   document.getElementById("div1").onmouseleave = function() {
+//      mouseLeave()
+//   };
+//
+//   function mouseEnter() {
+//      document.getElementById("div1").style.backgroundColor = "#A4C639";
+//      document.getElementById("div1").style.backgroundImage = "none";
+//      document.getElementById("div1").style.color = "wheat";
+//
+//   }
+//
+//   function mouseLeave() {
+//      document.getElementById("div1").style.backgroundImage = "url(images/background-canvas@2x.png)";
+//      document.getElementById("div1").style.backgroundColor = "none";
+//      document.getElementById("div1").style.color = "green";
+//
+//
+//   }
 
    function changeClass(evt) {
       if (evt.className === "firstDiv") {
